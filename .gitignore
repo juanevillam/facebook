@@ -1,0 +1,74 @@
+## Firebase
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+firebase-backend/node_modules
+firebase-backend/.pnp
+firebase-backend/.pnp.js
+
+# testing
+firebase-backend/coverage
+
+# production
+firebase-backend/build
+
+# misc
+firebase-backend/.DS_Store
+firebase-backend/.env.local
+firebase-backend/.env.development.local
+firebase-backend/.env.test.local
+firebase-backend/.env.production.local
+
+firebase-backend/npm-debug.log*
+firebase-backend/yarn-debug.log*
+firebase-backend/yarn-error.log*
+
+## Node JS (backend)
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+nodejs-backend/backend/node_modules
+nodejs-backend/backend/.pnp
+nodejs-backend/backend/.pnp.js
+
+# testing
+nodejs-backend/backend/coverage
+
+# production
+nodejs-backend/backend/build
+
+# misc
+nodejs-backend/backend/.DS_Store
+nodejs-backend/backend/.env.local
+nodejs-backend/backend/.env.development.local
+nodejs-backend/backend/.env.test.local
+nodejs-backend/backend/.env.production.local
+
+nodejs-backend/backend/npm-debug.log*
+nodejs-backend/backend/yarn-debug.log*
+nodejs-backend/backend/yarn-error.log*
+
+## Node JS (frontend)
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+nodejs-backend/frontend/node_modules
+nodejs-backend/frontend/.pnp
+nodejs-backend/frontend/.pnp.js
+
+# testing
+nodejs-backend/frontend/coverage
+
+# production
+nodejs-backend/frontend/build
+
+# misc
+nodejs-backend/frontend/.DS_Store
+nodejs-backend/frontend/.env.local
+nodejs-backend/frontend/.env.development.local
+nodejs-backend/frontend/.env.test.local
+nodejs-backend/frontend/.env.production.local
+
+nodejs-backend/frontend/npm-debug.log*
+nodejs-backend/frontend/yarn-debug.log*
+nodejs-backend/frontend/yarn-error.log*

@@ -1,0 +1,27 @@
+* [33mc89a69f[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m Style of the header dropdown options updated. Sidebar updated (now looking like the Facebook's one).
+* [33m4734767[m Menu dropdown option on Desktop updated with proper icon and information.
+* [33m9ebd99a[m Messenger with Chat-Engine.io updated. Most of the src/ .js files renamed to .jsx (I like it more).
+* [33md9f572d[m Messenger with Chat-Engine.io created.
+* [33m0d76614[m Header mobile updated. Funcionality to post from anywhere on Desktop using the menu icon created.
+* [33m083d87e[m Messenger Groups created.
+* [33m7c663d0[m Sidebar icons updated (now are the Facebook's ones).
+* [33md84fccd[m Sidebar updated. MessageSender updated. StoriesCreate right icons updated. (All style changes).
+* [33m6b4305d[m Tooltips created.
+* [33ma4763c8[m Navbar updated. Messenger created.
+* [33md31dc85[m Header options created.
+* [33m20ed2b4[m Auth redesign done!
+* [33m2b1912d[m Auth views updated (now fully responsive and cleaner).
+* [33m01f2098[m Auth views design updated.
+* [33m99130a5[m Message Sender updated and working. Create Stories updated and working (pending the navigation to each one and that every user has to have only one story card and on it, their other stories).
+* [33m1082eaf[m Redux already working (on the StoriesCreate.)
+* [33mcc6c7db[m Footer on StoriesSidebar created.
+* [33m4a86df7[m Preloader updated.
+* [33m9cd7c53[m StoriesSidebar created.
+* [33mb257e50[m Create Story <<Card>> created. Post updated.
+* [33mce911cc[m Header activeClassName added. MessageSender updated (To Facebook's way).
+* [33m41d631f[m Fusioning: The Facebook Clone with The Instagram Clone.
+* [33mc89ccbc[m Responsive navbar done and almost the whole app is responsive (excluding the Stories).
+* [33ma5f6288[m 1st step of the responsive navbar done!
+* [33ma9d060a[m[33m ([m[1;33mtag: V1.0[m[33m)[m Main concept ready
+* [33mb46f775[m All set to keep it going!
+* [33mf369d10[m Initialize project using Create React App

@@ -1,0 +1,1 @@
+export const handleRewind = ( playerRef ) => playerRef.current.seekTo( playerRef.current.getCurrentTime() - 10 );  

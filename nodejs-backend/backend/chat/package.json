@@ -1,0 +1,23 @@
+{
+  "name": "facebook-clone-socket-server",
+  "version": "1.0.0",
+  "description": "Capture and Share the World's Moments with The Facebook Clone (socket-server).",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanevillam/facebook-clone-backend.git"
+  },
+  "author": "Juan E. Villa M.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanevillam/facebook-clone-backend/issues"
+  },
+  "homepage": "https://github.com/juanevillam/facebook-clone-backend#readme",
+  "dependencies": {
+    "nodemon": "^2.0.7",
+    "socket.io": "^4.0.1"
+  }
+}

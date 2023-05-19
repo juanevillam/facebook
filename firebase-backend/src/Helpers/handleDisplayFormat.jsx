@@ -1,0 +1,1 @@
+export const handleDisplayFormat = ( setTimeDisplayFormat, timeDisplayFormat ) => setTimeDisplayFormat( timeDisplayFormat === "normal" ? "remaining" : "normal" );

@@ -1,0 +1,1 @@
+export const handleReturn = () => window.history.back();

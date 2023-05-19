@@ -1,0 +1,57 @@
+/* Create Group Button */
+.ChatButton {
+  color: #0099ff;
+  font-size: large;
+  flex: 0;
+  margin-top: 10px;
+  outline: none !important;
+}
+
+.ChatButton:disabled {
+  background: none;
+  cursor: not-allowed;
+  font-weight: 400;
+  opacity: 40%;
+}
+
+/* GIFs */
+.GifGrid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  margin-top: 5px;
+}
+  
+.GifCard {
+  cursor: pointer;
+  margin-top: 2px;
+  margin-right: 2px;
+}
+
+.GifCard__Image {
+  height: 120px;
+  width: 170px;
+  object-fit: cover;
+}
+
+/* Stickers */
+.StickerGrid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  margin-top: 5px;
+}
+  
+.StickerCard {
+  cursor: pointer;
+  margin-top: 2px;
+  margin-right: 2px;
+}
+
+.StickerCard__Image {
+  height: 120px;
+  width: 115px;
+  object-fit: cover;
+}

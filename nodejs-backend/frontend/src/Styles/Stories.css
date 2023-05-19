@@ -1,0 +1,67 @@
+/* New Story Card */
+.NewStory {
+  background-color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 200px;
+  margin-right: 10px;
+  position: relative;
+  transition: transform 150ms ease-in;
+  width: 120px !important;
+}
+
+.NewStory:hover {
+  transform: scale(1.06);
+}
+
+.NewStory__Image {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 60%;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Story Card */
+.Story {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 200px;
+  margin-right: 10px;
+  position: relative;
+  transition: transform 150ms ease-in;
+  width: 120px !important;
+}
+
+.StoryMobile {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  cursor: pointer;
+  height: 208px;
+  margin-right: 8px;
+  position: relative;
+  width: 105px;
+}
+
+.Story:hover {
+  transform: scale(1.06);
+}
+
+.Story__Avatar {
+  margin-left: 6px;
+  margin-top: 7px;
+  border: 2.5px solid rgba(59, 130, 246, 1);
+}
+
+.Story__Title {
+  bottom: 5px;
+  color: white;
+  font-weight: 500;
+  left: 10px;
+  position: absolute;
+}

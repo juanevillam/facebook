@@ -1,0 +1,48 @@
+.Auth__InputWrap {
+  height: 48px;
+  position: relative;
+  width: 100%;
+}
+
+.Auth__InputWrap__Input {
+  background: none;
+  border-bottom: 1px solid #bbb;
+  height: 100%;
+  left: 0;
+  padding: 1rem;
+  position: absolute;
+  outline: none;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.Auth__InputWrap__Input:focus {
+  border-bottom: 2px solid #1877f2;
+  color: #100f10;
+}
+
+.Auth__InputWrap__Label {
+  background-color: none;
+  color: #bbb;
+  padding: 0 0.25rem;
+  position: absolute;
+  top: 1rem;
+  transition: 0.3s;
+}
+
+.Auth__InputWrap__Input:focus + .Auth__InputWrap__Label {
+  color: #1877f2;
+  font-weight: 500;
+  font-size: small;
+  top: -0.4rem;
+  z-index: 10;
+}
+
+.Auth__InputWrap__Input:not(:placeholder-shown).Auth__InputWrap__Input:not(:focus)
+  + .Auth__InputWrap__Label {
+  font-weight: 500;
+  top: -0.4rem;
+  font-size: small;
+  z-index: 10;
+}

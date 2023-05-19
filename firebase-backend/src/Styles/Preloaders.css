@@ -1,0 +1,52 @@
+/* Preloaders (Facebook, Messenger) */
+.Preloader {
+    align-items: center;
+    background: white;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 20;
+}
+
+.Preloader__Title {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    background-clip: unset;
+    color: gray;
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 380px;
+    position: absolute;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Preloader__Title__Messenger {
+    background: linear-gradient(to right, #0196FF 0%, #8741FF 50%, #F54E8F 100%);
+    background-clip: unset;
+    color: gray;
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 380px;
+    position: absolute;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Preloader__Logo {
+    height: 150px;
+    margin-top: -100px;
+    position: absolute;
+    width: 150px;
+}
+
+.Preloader__Text {
+    color: gray;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 300px;
+    position: absolute;
+}  

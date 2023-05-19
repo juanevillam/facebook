@@ -1,0 +1,1 @@
+export const handleVolumeSeekDown = ( newValue, setVideo, video ) => setVideo({ ...video, seeking: false, volume: parseFloat( newValue / 100 ) });

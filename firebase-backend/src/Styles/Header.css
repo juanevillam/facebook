@@ -1,0 +1,130 @@
+/* Header Icons */
+.Header__Icon {
+    cursor: pointer;
+    object-fit: contain;
+}
+  
+.Header__IconBold {
+    cursor: pointer;
+    display: none;
+    object-fit: contain;
+}
+  
+/* Tooltips on Header Icons */
+.Navlink:hover .Tooltip {
+    animation: fadeInAnimation ease 0.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    opacity: 0.9;
+}
+
+.Tooltip:hover {
+    animation: none !important;
+    cursor: default !important;
+    opacity: 0 !important;
+}
+
+/* Active States on Header Icons */
+.activeHome .Header__Icon { display: none; }
+.activeHome .Header__IconBold { display: block; }
+
+.activeFriends .Header__Icon { display: none; }
+.activeFriends .Header__IconBold { display: block; }
+
+.activeWatch .Header__Icon { display: none; }
+.activeWatch .Header__IconBold { display: block; }
+
+.activeMarketplace .Header__Icon { display: none; }
+.activeMarketplace .Header__IconBold { display: block; }
+
+.activeNotifications .Header__Icon { display: none; }
+.activeNotifications .Header__IconBold { display: block; }
+
+.activeMenu .Header__Icon { display: none; }
+.activeMenu .Header__IconBold { display: block; }
+
+/* Tooltips Animation */
+@keyframes fadeInAnimation {
+    0% { opacity: 0 };
+    100% { opacity: 1 };
+}
+
+/* Post button on MessageSender */
+.MessageSender__Button:disabled {
+    background-color: #E4E6EB;
+    color: #BCC0C4 !important;
+    cursor: not-allowed;
+    font-weight: 500;
+}
+
+/* Customize the label (the container) */
+.container {
+    align-items: center;
+    display: block;
+    position: relative;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 7px;
+    margin-left: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 300px;
+}
+  
+/* Hide the browser's default radio button */
+.container input {
+    cursor: pointer;
+    height: 0;
+    opacity: 0;
+    position: absolute;
+    width: 0;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    background-color: #eee;
+    border-radius: 50%;
+    bottom: 0;
+    height: 20px;
+    margin-bottom: 12px;
+    margin-right: 10px;
+    position: absolute;
+    right: 0;
+    width: 20px;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: rgba(59, 130, 246, 1);
+}
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    display: none;
+    position: absolute;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+    background: white;
+    border-radius: 50%;
+    height: 9px;
+    right: 5.6px;
+    top: 5.6px;
+    width: 9px;
+}
